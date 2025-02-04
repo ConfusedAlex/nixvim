@@ -1,6 +1,5 @@
 {
   plugins = {
-    typescript-tools.enable = true;
     lsp = {
       enable = true;
       capabilities = "offsetEncoding = 'utf-8'";
@@ -26,6 +25,7 @@
         gopls.enable = true;
         templ.enable = true;
         tailwindcss.enable = true;
+        ts_ls.enable = true;
         eslint.enable = true;
         html.enable = true;
       };
